@@ -102,7 +102,7 @@ namespace Assignment1_Web
                     Console.WriteLine(" Press 2 to Search Junior Suite Free Room");
                     Console.WriteLine(" Press 3 to Search Standard Free Room");
                     Console.WriteLine(" Press 4 to Search Moderate Free Room");
-                    Console.WriteLine(" Press 5 to Search Superior Free Room");
+                    Console.WriteLine(" Enter 5 to Search Superior Free Room");
                     op= int.Parse(Console.ReadLine());
                     if (op==1)
                     h.ShowFreeRoom("Suite");
